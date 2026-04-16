@@ -5,7 +5,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>안녕하세요, 저는 WILL 입니다!</h1>
-    <p>웹개발을 배우고 있습니다.</p>
+    <h1>안녕하세요, 저는 WILL입니다!</h1>
+    <p>웹개발을 배우고 있는 신입 개발자입니다.</p>
+
+    <img src="./lamp_baby.png" alt="프로필 이미지" />
+
+    <a href="https://github.com/WILL-LEE-creator" target="_blank"
+      >내 GitHub 바로가기</a
+    >
+
+    <button onclick="sayHello()">인사하기</button>
+    <p id="message"></p>
+
+    <script>
+      function sayHello() {
+        document.getElementById("message").innerText =
+          "안녕하세요, WILL! 웹개발을 시작했군요!";
+      }
+    </script>
   </body>
 </html>
